@@ -1,8 +1,5 @@
 Config = {}
 
--- Debugs --
-Config.Debug = true
-
 -- % Chance to Find Items ( Out of 100% ) --
 Config.ItemChance = 10
 
