@@ -1,4 +1,5 @@
 local QRCore = exports['qr-core']:GetCoreObject()
+local sharedItems = QRCore.Shared.Items
 
 -- Loot Body ---
 RegisterNetEvent('xtr-looting:server:LootBody', function(netID)
