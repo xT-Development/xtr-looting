@@ -41,6 +41,7 @@ local function LootingThread()
                 local netID = PedToNet(closestPed)
                 if distance > 3 then return end
                 TriggerServerEvent('xtr-looting:server:LootBody', netID) -- Sends NetID for Server Distance Check
+                    Citizen.InvokeNative(0x6BCF5F3D8FFE988D, closestPed, true) -- Set Fully Looted
             end
         end)
     end
