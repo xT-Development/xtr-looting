@@ -1,5 +1,8 @@
 Config = {}
 
+-- Use Base Events (Lower Resmon) --
+Config.BaseEvents = true
+
 -- % Chance to Find Items ( Out of 100% ) --
 Config.ItemChance = 10
 

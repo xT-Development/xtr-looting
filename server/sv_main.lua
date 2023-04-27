@@ -16,8 +16,8 @@ RegisterNetEvent('xtr-looting:server:LootBody', function(netID)
     if dist > 5 then return end
 
     -- Random Item Chance / Money Amount --
-    local randomChance = math.random(1,100)
-    local moneyAmount = (math.random(Config.Money.min, Config.Money.max)) / 100
+    local randomChance = math.random(1, 100)
+    local moneyAmount = math.random(Config.Money.min, Config.Money.max) / 100
 
     if Player.Functions.AddMoney('cash', moneyAmount) then -- Add Money
         if randomChance <= Config.ItemChance then -- Random Chance to Get Items
