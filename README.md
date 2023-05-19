@@ -8,13 +8,14 @@
 - Base events or use a custom thread (Base events = lower resmon)
 - Secured event for looting (Client & server distance checks)
 
-## Setup Base Evetns
+## Setup Base Events
 - To use base events for a constant 0.00 resmon, replace your `baseevents` resource with this: https://github.com/darktrovx/events
 - Set `Config.BaseEvents` to true
 
 ## Dependencies
 - [qr-core](https://github.com/QRCore-framework/qb-core)
 - [ox_lib](https://github.com/overextended/ox_lib)
+- [events](https://github.com/darktrovx/events) | Optional / Recommended
 
 ## Credits
 [Devyn](https://github.com/darktrovx) | Creating a more useful base events resource
